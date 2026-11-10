@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# env (예시 파일만 커밋)
+.env
+.env.*
+!.env.example
+
+# build
+dist/
+out/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA (Serwist 빌드 산출물)
+web/public/sw.js
+web/public/sw.js.map
+web/public/swe-worker-*.js
+
+# logs / os / editor
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

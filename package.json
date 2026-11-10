@@ -1,0 +1,7 @@
+{
+  "name": "thirteenth",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev"
+  }
+}
